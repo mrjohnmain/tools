@@ -1,0 +1,26 @@
+{
+    "name": "mrjohnmain/tools",
+    "description": "Laravel helper functions",
+    "license": "MIT",
+    "homepage": "https://www.johnmain.co.uk",
+    "authors": [
+        {
+            "name": "John Main",
+            "email": "john@johnmain.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.2",
+        "illuminate/database": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrJohnMain\\Helper\\" : "src"
+        },
+        "files": [
+            "src/Helper/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
