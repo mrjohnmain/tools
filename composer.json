@@ -2,6 +2,7 @@
     "name": "mrjohnmain/tools",
     "description": "Laravel helper functions",
     "license": "MIT",
+    "version": "1.0.0",
     "homepage": "https://www.johnmain.co.uk",
     "authors": [
         {
@@ -22,5 +23,5 @@
             "src/Helper/helpers.php"
         ]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
