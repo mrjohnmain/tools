@@ -2,7 +2,7 @@
     "name": "mrjohnmain/tools",
     "description": "Laravel helper functions",
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://www.johnmain.co.uk",
     "authors": [
         {
@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": ">=7.0",
-        "illuminate/support": "^6.0",
-        "illuminate/database": "^6.0"
+        "illuminate/support": "^6.0|^7.0",
+        "illuminate/database": "^6.0|^7.0"
     },
     "autoload": {
         "psr-4": {
