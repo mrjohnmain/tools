@@ -39,3 +39,23 @@ if (! function_exists('dddb')) {
         }
     }
 }
+
+if ( ! function_exists('link_to_route_icon'))
+{
+
+    function link_to_route_icon($name, $icon = null, $parameters = array(), $attributes = array())
+    {
+        $url = route($name, $parameters);
+
+        return '<a href="' . $url . '"' . app('html')->attributes($attributes) . '><i class="fa ' . $icon . '"></i></a>';
+    }
+}
+
+if ( ! function_exists('link_to_icon'))
+{
+
+    function link_to_icon($url, $icon = null, $attributes = array())
+    {
+        return '<a href="' . $url . '"' . app('html')->attributes($attributes) . '><i class="fa ' . $icon . '"></i></a>';
+    }
+}
